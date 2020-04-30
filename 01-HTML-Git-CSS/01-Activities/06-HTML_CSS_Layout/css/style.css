@@ -1,0 +1,102 @@
+/*******************************************************
+ *  style.css
+ *  Lewis Cruz
+ *  4/28/2020
+ *  CSS stylesheet referenced by lewcrz-HTMLBio.html
+ *******************************************************/
+body {
+    margin: 0;
+    padding: 0;
+    background: #efeee7;
+    font-family: Georgia, 'Times New Roman', Times, serif;   
+    font-size: 18px;   
+    color: #333;
+}
+
+header {
+    background: #333;
+}
+
+h1 {
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #eee;
+    text-align: center;    
+}
+
+h2 {
+    font-size: 24px;
+}
+
+a {
+    color: #d21034;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1024px;
+}
+
+
+
+/*
+These are not class selectors, they are ID selectors.
+So they would not work in exactly the same way as
+class selectors.
+
+Trying to use them as they were stated initially
+it would look like they did not do anything to
+the content.
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float:left;
+}
+
+#main-bio {
+    width: 70%;
+}
+
+#contact-info {
+    width: 30%;
+}
+
+*/
+
+/* Re-writing the same selector names but
+instead with a '.' in front would make
+the same word into a CSS class selector
+does force the content to float to
+the desired layout on the page.
+
+
+*/
+
+/*
+Added this rule to nudge the main-bio
+text 10 pixels away from the headshot
+image.
+*/
+
+.bio-image {
+    margin-right: 10px;
+}
+
+.main-bio,
+.contact-info,
+.bio-image {
+    float:left;
+}
+
+.main-bio {
+    width: 85%;
+}
+
+.contact-info {
+    width: 15%;
+}
+
+

@@ -1,0 +1,49 @@
+/*******************************************************
+ *  positioning.css
+ *  Lewis Cruz
+ *  4/28/2020
+ *  CSS stylesheet referenced by positioning.html
+ *******************************************************/
+
+  
+figure#fixed {
+  position: fixed;
+  background: #eee;
+  padding: 50px;
+  top: 0;
+  left: 0;
+  margin: 0;
+  text-align: center;
+}
+
+
+#relative {
+  position: relative;
+  background: #eee;
+  padding: 20px;
+  color: black;
+  text-align: center;
+  height: 139px;
+  width:95%;
+  margin: auto 0;
+}
+
+.wrapper {
+  width: 58%;
+  margin: 0 auto;
+}
+
+#absolute {
+  position: absolute;
+  background: #999;
+  padding: 20px;
+  bottom: 0px;
+  margin: 0;
+  color: black;
+  width: 31%;
+  height: 44px;
+  /*  Was only able to move the <div> position absolute off the edge of
+   *  position relative box using negative value for right position.
+   */
+  right: -24px;
+}

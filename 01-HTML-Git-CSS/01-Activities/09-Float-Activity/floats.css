@@ -1,0 +1,87 @@
+/**
+ * Lewis Cruz
+ * 4/29/2020
+ * Float Layout Activity
+ * 
+ **/
+
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-size: 28px;
+}
+
+header {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #394549;
+}
+
+
+#left {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #30948D;
+  width: 33.3%;
+  float: left;
+}
+
+#middle {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #9E1212;
+  width: 33%;
+}
+
+#right {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #30948D;
+  width: 33.3%;
+  float: left;
+}
+
+#full {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+  margin: 15px 0;
+}
+
+#division {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background: #6ea3da;
+}
+
+aside {
+  padding: 50px;
+  margin-bottom: 10px;
+  color: white;
+  background: #a6b747;
+  float: left;
+}
+
+footer {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  background: #FFA500;
+}
+
